@@ -12,11 +12,17 @@ ul {
     font-weight: 430;
     margin-top: 53px;
 }
+li:hover{
+    color: #9F78FF;
+}
 
 .main-container {
     display: flex;
     width: 95%;
     justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 
 }
 
@@ -72,7 +78,7 @@ h1 {
 }
 
 .buttons {
-    border: 1px solid rgb(161, 157, 157);
+    border: 1px solid #9F78FF;
     width: 180px;
     border-radius: 5px;
     color: white;
@@ -106,7 +112,7 @@ h1 {
     top: 42%;
     left: 20%;
     background: #9F78FF;
-    border: 1px solid rgb(161, 157, 157);
+    border: 1px solid #9F78FF;
     width: 180px;
     border-radius: 5px;
     color: white;
@@ -203,4 +209,84 @@ h1 {
     font-weight: 500;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
+}
+
+.backgroundimg-two {
+    border: 1px solid grey;
+    width: 95%;
+    height: 670px;
+    background-position: center;
+    background-image: url(../image/bg\ image\ two.webp);
+    margin: auto;
+    background-repeat: no-repeat;
+    margin-top: 85px;
+}
+
+.girlimg-two {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    margin-top: 215px;
+    font-weight: 500;
+    font-family: "Cinzel", serif;
+}
+
+.button-about {
+    border: 1px solid #9F78FF;
+    width: 180px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 610px;
+    padding: 20px;
+    margin-top: -30px;
+    background: #9F78FF;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-final-image {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* height: 500px; */
+    width: 95%;
+    margin: auto;
+}
+
+.inner-final-image {
+    border: 1px solid rgb(216, 214, 214);
+    height: 530px;
+    width: 680px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.para {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 240px;
+    left: 39px;
+}
+
+.read-more {
+    background: #9F78FF;
+    border: 1px solid #9F78FF;
+    width: 205px;
+    border-radius: 5px;
+    color: white;
+    padding: 12px;
+    position: relative;
+    top: 215px;
+    left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
