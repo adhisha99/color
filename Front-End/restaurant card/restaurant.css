@@ -1,0 +1,32 @@
+.first-container{
+    border: 1px solid grey;
+    width: 100%;
+    height: 641px;  
+    /* position: relative;  */
+}
+.back-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute;
+    opacity: 0.6;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px; */
+    position: relative;
+    /* color: #FFFFFF80; */
+}
+.phone{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid gainsboro; */
+    background-color: #FFFFFF80;
+    height: 30px;
+    width: 100%;
+    position:absolute;
+    top: 0%;
+    color: white;
+
+    
+}

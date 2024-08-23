@@ -1,0 +1,98 @@
+.main-container {
+    // border: 1px solid grey;
+    width: 80%;
+    height: 630px;
+    margin: auto;
+
+}
+
+.inner-con {
+    border: 1px solid rgb(231, 226, 226);
+    height: 600px;
+    width: 85%;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.first-image {
+    border: 1px solid rgb(238, 232, 232);
+    height: 380px;
+    width: 250px;
+    position: relative;
+    top: 119px;
+    left: -220px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button {
+    // border: 1px solid grey;
+    // height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 11px;
+    border: none;
+    background-color: rgb(93, 194, 235);
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.para1 {
+    font-family: poppins;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.para2 {
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    color: rgb(63, 60, 60);
+
+}
+
+.image2 {
+    height: 35px;
+    width: 35px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+.word1 {
+    position: relative;
+    top: -1px;
+    left: 55px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    
+
+}
+
+.word2 {
+    position: relative;
+    top: -1px;
+    left: 55px;
+    color: rgb(104, 102, 102);
+    font-size: 13px;
+    
+
+}
