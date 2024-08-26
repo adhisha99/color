@@ -1,19 +1,20 @@
-.main-container {
-    // border: 1px solid grey;
-    width: 80%;
-    height: 630px;
-    margin: auto;
+// .main-container {
+//     // border: 1px solid grey;
+//     width: 80%;
+//     height: 630px;
+//     margin: auto;
 
-}
+// }
 
 .inner-con {
     border: 1px solid rgb(231, 226, 226);
-    height: 600px;
-    width: 85%;
+    height: 550px;
+    width: 80%;
     margin: auto;
     border-radius: 50px;
     display: flex;
-    justify-content: space-around;
+    gap: 35px;
+    justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
@@ -23,8 +24,8 @@
     height: 380px;
     width: 250px;
     position: relative;
-    top: 119px;
-    left: -220px;
+    top: 90px;
+    // left: -220px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -34,7 +35,7 @@ img {
     border-top-right-radius: 10px;
 }
 
-.button {
+.button1 {
     // border: 1px solid grey;
     // height: 30px;
     width: 90px;
@@ -48,8 +49,32 @@ img {
     left: 15px;
 }
 
+@mixin button-container {
+    width: 90px;
+    border-radius: 10px;
+    font-size: 11px;
+    border: none;
+    background-color: rgb(93, 194, 235);
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 15px;
+
+}
+.button2{
+    @include button-container;
+    background-color: rgb(110,77,254);
+    width: 78px;
+}
+.button3{
+    @include button-container;
+    background-color: palevioletred;
+    width: 65px;
+
+}
+
 .para1 {
-    font-family: poppins;
+    font-family: "poppins", sans-serif;
     color: black;
     font-size: 13px;
     font-weight: 700;
@@ -64,6 +89,9 @@ img {
     top: 20px;
     left: 15px;
     color: rgb(63, 60, 60);
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+
 
 }
 
@@ -76,6 +104,21 @@ img {
     left: 15px;
 }
 
+@mixin second-image {
+    height: 35px;
+    width: 35px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+
+}
+
+.last-image {
+    @include second-image;
+    top: 77px;
+}
+
 .word1 {
     position: relative;
     top: -1px;
@@ -83,7 +126,17 @@ img {
     font-size: 13px;
     font-weight: 600;
     font-family: "poppins", sans-serif;
-    
+
+
+}
+
+@mixin last-word1 {
+    position: relative;
+    top: -1px;
+    left: 55px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
 
 }
 
@@ -93,6 +146,26 @@ img {
     left: 55px;
     color: rgb(104, 102, 102);
     font-size: 13px;
-    
+
+
+}
+
+@mixin last-word2 {
+    position: relative;
+    top: -1px;
+    left: 55px;
+    color: rgb(104, 102, 102);
+    font-size: 13px;
+
+}
+
+.web1 {
+    @include last-word1;
+    top: 37px;
+}
+
+.web2 {
+    @include last-word2;
+    top: 37px;
 
 }
